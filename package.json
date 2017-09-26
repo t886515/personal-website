@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "a dynamic personal websites that contains achievements and fun stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t886515/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t886515/personal-website/issues"
+  },
+  "homepage": "https://github.com/t886515/personal-website#readme",
+  "dependencies": {
+    "mongoose": "^4.11.12"
+  }
+}
