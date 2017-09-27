@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/t886515/personal-website#readme",
   "dependencies": {
-    "mongoose": "^4.11.12"
+    "angular": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1"
   }
 }
