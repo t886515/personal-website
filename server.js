@@ -28,7 +28,15 @@ app.use('/style.css', (req, res, next)=>{
 })
 
 app.use('/background', (req, res, next)=>{
-  res.sendFile(path.join(__dirname, 'asset/bg.jpg'));
+  res.sendFile(path.join(__dirname, 'asset/bg.jpeg'));
+})
+
+app.use('/namelogo', (req, res, next)=>{
+  res.sendFile(path.join(__dirname, 'asset/namelogo1.png'))
+})
+
+app.use('/titlename', (req, res, next)=> {
+  res.sendFile(path.join(__dirname, 'asset/titlename1.png'))
 })
 
 app.listen(8000, ()=>{

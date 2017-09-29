@@ -1,11 +1,25 @@
-body {
+/*body {
   background-image: url("/background");
+  z-index: -1;
+}*/
+
+html { 
+  background: url('/background') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   z-index: -1;
 }
 
-h1 {
-  color: yellow;
-  position: center;
+.namelogo {
+  width: 10%;
+  height: 10%;
+}
+
+.titlename {
+  color: white;
+  width: 50%;
 }
 
 span {
