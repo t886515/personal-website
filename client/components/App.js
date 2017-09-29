@@ -1,7 +1,7 @@
 angular.module('personal-website', [])
 
 .controller('AppCtrl', function() {
-
+  
 })
 
 .component('app', {

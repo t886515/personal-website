@@ -27,6 +27,10 @@ app.use('/style.css', (req, res, next)=>{
   res.sendFile(path.join(__dirname, 'style.css'));
 })
 
+app.use('/background', (req, res, next)=>{
+  res.sendFile(path.join(__dirname, 'asset/bg.jpg'));
+})
+
 app.listen(8000, ()=>{
   console.log('Listening on port 8000')
 })

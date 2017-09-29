@@ -1,0 +1,13 @@
+body {
+  background-image: url("/background");
+  z-index: -1;
+}
+
+h1 {
+  color: yellow;
+  position: center;
+}
+
+span {
+  color: red;
+}
